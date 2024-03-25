@@ -1,20 +1,29 @@
 
 import RevenueCard from "./components/RevenueCard"
 import BlueCard from "./components/BlueCard"
+import TopBar from "./components/TopBar"
+import Overview from "./components/Overviwe"
+import Transactions from "./components/Transactions"
+import TopOfTable from "./components/TopOfTable"
 
 
 function App() {
 
   return (
     <div>
-      <div>hi</div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-                
-                <BlueCard title={"Amount Pending"} amount={"92,312.20"} orderCount={13} />
-                <RevenueCard title={"Amount Pending"} amount={"92,312.20"} orderCount={13} />
-                <RevenueCard title={"Amount Pending"} amount={"92,312.20"} orderCount={13} />
-                
-            </div>
+      
+      <div className="ml-5 border-b border-black-150 sm:pl-64 bg-white-500">
+        <TopBar />
+      </div>
+      <div className="m-5 sm:pl-64 ">
+      <Overview></Overview>
+      </div>
+      <div className="m-5 sm:pl-64">
+      <Transactions></Transactions>
+      </div>
+      <div className="m-5 sm:pl-64">
+        <TopOfTable></TopOfTable>
+      </div>
 
     </div>
   )

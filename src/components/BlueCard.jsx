@@ -3,7 +3,7 @@ import React from 'react'
 export default function BlueCard({title, orderCount, amount}){
 
     return( 
-        <div className='rounded overflow-hidden shadow-custom text-white'>
+        <div className='rounded overflow-hidden shadow-custom text-white-500'>
         <div className="p-5 grid h-min gap-y-4 bg-blue-700 hover:bg-blue-750">
         <div className='flex items-center'>
             {title}
@@ -17,7 +17,7 @@ export default function BlueCard({title, orderCount, amount}){
             <div className='text-3xl font-semibold'>
                 ₹ {amount}
             </div>
-            <div className='flex text-white cursor-pointer'>
+            <div className='flex text-white-500 cursor-pointer'>
                 <div className='underline'>
                     {orderCount} order
                 </div>
