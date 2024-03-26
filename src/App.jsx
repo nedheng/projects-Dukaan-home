@@ -1,18 +1,16 @@
-
-import RevenueCard from "./components/RevenueCard"
-import BlueCard from "./components/BlueCard"
 import TopBar from "./components/TopBar"
 import Overview from "./components/Overviwe"
 import Transactions from "./components/Transactions"
-import TopOfTable from "./components/TopOfTable"
 import Table from "./components/Table"
+import Footer from "./components/Footer"
+import Sidebar from "./components/Sidebar"
 
 
 function App() {
 
   return (
-    <div>
-      
+    <div className="bg-white-50">
+      <Sidebar></Sidebar>
       <div className="ml-5 border-b border-black-150 sm:pl-64 bg-white-500">
         <TopBar />
       </div>
@@ -23,8 +21,9 @@ function App() {
           <Transactions></Transactions>
           <Table></Table>
         </div>
+        <Footer></Footer>
       </div>
-
+      
     </div>
   )
 }

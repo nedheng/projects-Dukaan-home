@@ -5,7 +5,7 @@ import TopOfTable from "./TopOfTable";
 
 export default function Table(){
     return(
-        <div>
+        <div className='bg-white-500 p-2 rounded-lg grid gap-4'>
             <div>
                 <TopOfTable></TopOfTable>
             </div>
