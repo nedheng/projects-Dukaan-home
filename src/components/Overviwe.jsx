@@ -16,9 +16,9 @@ export default function Overview(){
 
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-                <BlueCard title={"Next payout"} orderCount={23} amount={"2,312.23"}></BlueCard>
-                <RevenueCard title={"Amount Pending"} orderCount={13} amount={"92,312.20"}></RevenueCard>
-                <RevenueCard title={"Amount Processed"} amount={"23,92,312.19"}></RevenueCard>
+                <BlueCard title={"Next payout"} orderCount={21} amount={"3,212.23"}></BlueCard>
+                <RevenueCard title={"Amount Pending"} orderCount={17} amount={"42,212.10"}></RevenueCard>
+                <RevenueCard title={"Amount Processed"} amount={"43,72,212.23"}></RevenueCard>
             </div>
         </div>
     )

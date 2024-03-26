@@ -34,7 +34,7 @@ export default function BlueCard({title, orderCount, amount}){
     </div>
     <div className='text-sm flex justify-between bg-blue-900 py-2 px-6'>
         <div>Next payout date:</div>
-        <div>Today, 04:00 PM</div>
+        <div>Today, 03:00 PM</div>
     </div>
     </div>
 
